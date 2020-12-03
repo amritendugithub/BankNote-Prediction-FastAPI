@@ -1,0 +1,1 @@
+web: gunicorn -w 4 -k unicorn.workers.UvicornWorker banknote_authetication_prediction_model_FastAPI:predict_app
